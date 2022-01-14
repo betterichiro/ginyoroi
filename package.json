@@ -1,0 +1,18 @@
+{
+  "name": "ninjacodewebpack",
+  "version": "1.0.0",
+  "description": "ejsの使い方",
+  "scripts": {
+    "watch": "nodemon -e ejs -x \"npm run ejs \"",
+    "ejs": "ejs-cli --base-dir src \"/**/[!^_]*.ejs\" --out ./public --watch"
+  },
+  "keywords": [],
+  "author": "ninjacode",
+  "license": "MIT",
+  "devDependencies": {
+    "ejs-cli": "^2.1.1",
+    "nodemon": "~1.18.11",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {}
+}

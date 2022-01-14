@@ -1,0 +1,33 @@
+html {
+  visibility: hidden;
+}
+
+html.wf-active {
+  visibility: visible;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.contents {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Gentium Basic';
+}
+
+@include sp{
+  .contents{
+    display: block;
+  }
+}
